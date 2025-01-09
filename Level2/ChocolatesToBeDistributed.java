@@ -13,7 +13,7 @@ public class ChocolatesToBeDistributed{
 		System.out.println("Enter the number of chcolates: ");
 		int totalChocolates = sc.nextInt();
 		
-		//Create the variable totalChildrens for total number of children.
+		//Create the variable totalChildrens for total number of childrens.
 		System.out.println("Enter the number of childrens: ");
 		int totalChildrens = sc.nextInt();
 		
