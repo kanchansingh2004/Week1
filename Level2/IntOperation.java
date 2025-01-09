@@ -22,16 +22,16 @@ public class IntOperation{
 
         // Perform integer operations considering operator precedence
 		
-		// Here multiplication(*) has higher precedence than addition (+) so we first multiply b and c then add a.
+		// Here multiplication is having higher precedence than addition so we first multiply b and c then add a.
         int result1 = a + b * c;  
 		
-		//Here multiplication(*) has higher precedence than addition (+) so we first multiply b and a then add c.
+		//Here multiplication is having higher precedence than addition so we first multiply b and a then add c.
         int result2 = a * b + c;  
 		
-		// Here division(/) has higher precedence than addition (+) so we first divide a and b then add c.
+		// Here division is having higher precedence than addition so we first divide a and b then add c.
         int result3 = c + a / b;  
 		
-		// Here modulus(%) has higher precedence than addition (+) so we first perform modulus of a and b then add c.
+		// Here modulus is having higher precedence than addition so we first perform modulus of a and b then add c.
         int result4 = a % b + c;  
 
         // Print the results of the operations performed.

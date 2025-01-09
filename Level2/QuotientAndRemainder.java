@@ -17,10 +17,10 @@ public class QuotientAndRemainder{
         System.out.println("Enter the second number:");
         int number2 = sc.nextInt();
 
-        // Calculate the quotient using the division operator (/)
+        // Calculate the quotient
         int quotient = number1 / number2;
 
-        // Calculate the remainder using the modulus operator (%)
+        // Calculate the remainder
         int remainder = number1 % number2;
 
         // Print the quotient and remainder along with the input numbers

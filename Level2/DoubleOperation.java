@@ -21,17 +21,17 @@ public class DoubleOpteration{
         double c = input.nextDouble();
 
         // Perform double operations considering operator precedence
-        // Here multiplication(*) has higher precedence than addition (+) so we first multiply b and c then add a.
+        // Here multiplication is having higher precedence than addition so we first multiply b and c then add a.
         double result1 = a + b * c; 
 		
-		//Here multiplication(*) has higher precedence than addition (+) so we first multiply b and a then add c.
+		//Here multiplication is having higher precedence than addition so we first multiply b and a then add c.
         double result2 = a * b + c; 
 		
-		// Here division(/) has higher precedence than addition (+) so we first divide a and b then add c.
+		// Here division is having higher precedence than addition so we first divide a and b then add c.
         double result3 = c + a / b;  
 		
 		
-        // Here modulus(%) has higher precedence than addition (+) so we first perform modulus of a and b then add c.
+        // Here modulus is having higher precedence than addition so we first perform modulus of a and b then add c.
         double result4 = a % b + c;  
 
         // Print the results of the operations
