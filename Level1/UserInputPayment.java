@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 
-// Create a class UserInputPayment for calculating the the discounted amount and discounted price the student will pay for the course.
+// Create a class UserInputPayment for calculating the discounted amount and discounted price the student will pay for the course.
 public class UserInputPayment{
 	
 	public static void main(String args[]){
