@@ -1,6 +1,6 @@
 //Import Scanner class for taking the user input in program.
 import java.util.Scanner; 
-
+ 
 // Create AbundantNumber class to check if a number is abundant
 public class AbundantNumber{
     public static void main(String[] args){
