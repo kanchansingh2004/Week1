@@ -29,5 +29,7 @@ public class ArrayIndexOutOfBounds{
 		
 		//Calling method generateException to generate and handle the exception.
 		generateException(str);
+
+		sc.close();
 	}
 }
