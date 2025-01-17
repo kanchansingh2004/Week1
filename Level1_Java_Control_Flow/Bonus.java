@@ -1,4 +1,4 @@
-//Import Scanner class for taking the user input in program.
+//Import Scanner class for taking the user input in the program.
 import java.util.Scanner; 
 
 // Create Bonus class to calculate bonus based on years of service and salary of the employee.
@@ -28,5 +28,7 @@ class Bonus{
             // If years of service is 5 or less than 5 then no bonus is given to employee
             System.out.println("The employee is not eligible for a bonus.");
         }
+
+        sc.close();
     }
 }

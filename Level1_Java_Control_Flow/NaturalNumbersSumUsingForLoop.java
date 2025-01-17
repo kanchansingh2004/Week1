@@ -26,11 +26,11 @@ class NaturalNumbersSumForLooploop
             // Calculate sum using a while loop
             int sumLoop = 0;
 			
-            for(int i=1, i <= n, i++){
+            for(int i=1; i<=n ; i++){
 				
                  // Add current number to sumLoop
                 sumLoop += i;
-              
+            
             }
             
             // Print both sums
@@ -45,6 +45,8 @@ class NaturalNumbersSumForLooploop
                 System.out.println("There is a discrepancy in the results.");
             }
         }
+
+        input.close();
     }
 }
 
